@@ -1,0 +1,115 @@
+h1 {
+  text-align: left;
+  margin: auto;
+  font-size: 17px;
+  font-family: 'Cormorant Garamond', serif;
+  background-color: #918f8a;
+
+
+
+}
+p1 {
+  margin: auto;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 25px
+
+}
+
+ul {
+  text-align: center;
+  margin: auto;
+  font-family: 'Cormorant Garamond', serif;
+  list-style-type: none;
+  font-size: 20px;
+  max-width: 800px;
+  background-color: #918f8a;
+
+
+}
+
+img {
+  width: 450px;
+  height: 450px;
+  image-resolution: snap;
+
+  top: 15%;
+  left: 50%;
+  margin-top: 50px;
+  margin-left: -50px;
+
+
+}
+h2 {
+  margin-left: 20px;
+  margin-right: 750px;
+
+
+
+
+
+
+
+}
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.main {
+  margin-left: 160px;
+  font-size: 12px;
+  padding: 0px 10px;
+}
+
+
+
+
+
+
+#sidebar {
+    float: auto;
+    width: 200px;
+    background: #000000;
+    color: #FFFFFF;
+}
+
+#content {
+    overflow: hidden;
+    background: #000000;
+    color: #FFFFFF;
+}
+
+#cc {
+    float: auto;
+    width: 1000px;
+    background: #000000;
+    color: #FFFFFF;
+}
+
+#bar {
+    overflow: hidden;
+    background: #000000;
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+
+html {
+  background-color: #000000;
+}
