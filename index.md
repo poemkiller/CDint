@@ -6,6 +6,6 @@
 
 [poem](/Users/maggielicata/Documents/cdinteractions/CDint/poem/index.html)
 
-[Adventure](///Users/maggielicata/Documents/cdinteractions/CDint/secondadventure/index.html)
+[Adventure](/poemkiller/CDint/secondadventure/index.html)
 
 <a href="website_fig/index.html" title="About Me">About Me</a>
