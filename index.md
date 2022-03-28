@@ -8,4 +8,4 @@
 
 [Adventure](/poemkiller/CDint/secondadventure/index.html)
 
-<a href="website_fig/index.html" title="About Me">About Me</a>
+[a relative link](index.md)
