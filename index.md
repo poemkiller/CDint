@@ -6,4 +6,6 @@
 
 [poem](/Users/maggielicata/Documents/cdinteractions/CDint/poem/index.html)
 
-[Adventure](///Users/maggielicata/Documents/cdinteractions/CDint/secondadventure/index.html)
+[Adventure](/poemkiller/CDint/secondadventure/index.html)
+
+[a relative link](index.md)
