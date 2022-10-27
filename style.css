@@ -1,0 +1,43 @@
+body {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+
+img {
+  width: 200px;
+  height: 50px;
+  margin-top: auto;
+  margin-left: -30px;
+
+}
+try {
+  width: 100px;
+  height: 50px;
+}
+
+li {
+  font-size: 25px;
+  line-height: inherit;
+}
+a {
+  color: black;
+}
+
+.flex-row {
+  margin-top: 20px;
+}
+
+.navbar {
+  margin-top: 150px;
+  margin-left: -50px;
+}
+li:hover {
+  font-size: 27px;
+
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+
+}

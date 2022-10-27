@@ -1,255 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <title>NYC wardrobe</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://unpkg.com/98.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-  body {
-    font-family: 'VT323', monospace;
-    line-height: 1.8;
-    color: #f5f6f7;
-
-
-  }
-
-  .margin {margin-bottom: 45px;}
-  .bg-1 {
-    background-color: #1abc9c;
-    color: black;
-    background-image: url('mani.jpg');
-    font-size: 25px;
-    font: 20px Montserrat, sans-serif;
-
-
-  }
-
-
-  p2 {
-    width: 1299px;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    line-height: 1;
-    color: black;
-    background-color: white;
-    border-radius: 30px;
-  }
-
-
-  .bg-2 {
-    background-color: #474e5d;
-    color: #ffffff;
-  }
-  .bg-3 {
-    background-color: #ffffff;
-    color: #555555;
-  }
-  .bg-4 {
-    background-color: #2f2f2f;
-    color: #fff;
-  }
-  .container-fluid {
-    padding-top: 100px;
-    padding-bottom: 900px;
-
-  }
-  .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 22px;
-    letter-spacing: 5px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  .navbar-nav  li a:hover {
-    color: #fa82ea !important;
-
-  }
-  .box {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: pink;
-    border-radius: 40%;
-    top: 30px;
-    bottom:0;
-    left:0;
-    right: -255px;
-    position: relative;
-
-  }
-  .shape {
-  display: inline-block;
-  width: 300px;
-  height: 300px;
-
-  border-radius: 10px 20px 30px 40px/30px;
-  top: 30px;
-  bottom: 0;
-  left: 800px;
-  right: 0px;
-  position: relative;
-  background-color: #e05bf5;
-  opacity: 0.5;
-
-}
-  .p1 {
-    font: 20px Montserrat, sans-serif;
-    position: relative;
-    top: 30px;
-    bottom: 0;
-    left: 880px;
-    right: 0px;
-    width: 300px;
-    height: 300px;
-    border-radius: 10px 20px 30px 40px/30px;
-    color: black;
-}
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-:root {
-  --color-primary: #f6aca2;
-  --color-secondary: #f49b90;
-  --color-tertiary: #f28b7d;
-  --color-quaternary: #f07a6a;
-  --color-quinary: #ee6352;
-  /*
-   --color-primary: #5192ED;
-   --color-secondary: #69A1F0;
-   --color-tertiary: #7EAEF2;
-   --color-quaternary: #90BAF5;
-   --color-quinary: #A2C4F5;
-   */
-}
-body {
-  min-height: 100vh;
-  font-family: 'VT323', monospace;
-  font-weight: 300;
-  font-size: 1.25rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  overflow: hidden;
-  background-color: #eff8e2;
-}
-.content {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-}
-.text_shadows {
-  text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
-  font-family: bungee, sans-serif;
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: calc(2rem + 5vw);
-  text-align: center;
-  margin: 0;
-  color: var(--color-primary);
-  animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
-  letter-spacing: 0.4rem;
-  top: 80px;
-
-}
-@keyframes shadows {
-  0% {
-    text-shadow: none;
-  }
-  10% {
-    text-shadow: 3px 3px 0 var(--color-secondary);
-  }
-  20% {
-    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary);
-  }
-  30% {
-    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
-  }
-  40% {
-    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
-  }
-  50% {
-    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
-  }
-  60% {
-    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
-  }
-  70% {
-    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
-  }
-  80% {
-    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary);
-  }
-  90% {
-    text-shadow: 3px 3px 0 var(--color-secondary);
-  }
-  100% {
-    text-shadow: none;
-  }
-}
-@keyframes move {
-  0% {
-    transform: translate(0px, 0px);
-  }
-  40% {
-    transform: translate(-12px, -12px);
-  }
-  50% {
-    transform: translate(-12px, -12px);
-  }
-  60% {
-    transform: translate(-12px, -12px);
-  }
-  100% {
-    transform: translate(0px, 0px);
-  }
-}
-.window {
-  top: 0px;
-  bottom: 540px;
-  left: 540px;
-  right: 0px;
-  width: 320px;
-
-  position: relative;
-}
-
-
-  </style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,
+			initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<link rel="stylesheet" href=
+"style.css">
+	<title>jenna, my love, hello</title>
 </head>
 <body>
 
+		<div class="d-flex flex-row">
+			<img src="images/nametag.png" alt="">
+		</div>
 
+	<script src=
+"https://code.jquery.com/jquery-3.3.1.slim.min.js">
+	</script>
+	<script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js">
+	</script>
+	<script src=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js">
+	</script>
 
-<div class="window">
-  <div class="title-bar">
-    <div class="title-bar-text">ERROR, pay attention fool</div>
-  </div>
-  <div class="window-body">
-<p></p>
-<ul>
-    <li>thinking about </li>
-    <li>******* you</li>
-    <li> kisses </li>
+	<nav class ="navbar">
+<ul class ="navbar-nav">
+<li class ="nav-item">
+<a  href="#"> jay rosie </a>
+</li>
+<li class ="nav-item">
+<a  href="#" > writing </a>
+</li>
+<li class ="nav-item">
+<a  href="#" > films </a>
+</li>
+<li class ="nav-item">
+<a  href="#" > visuals </a>
+</li>
+<li class ="nav-item">
+<a  href="#" > tattoos </a>
+</li>
+<li class ="nav-item">
+<a  href="#" > contact </a>
+</li>
 </ul>
-  </div>
-  <div class="status-bar">
-    <p class="status-bar-field">Send a Report</p>
-    <p class="status-bar-field">Help me</p>
-    <p class="status-bar-field">CPU Usage: 69%</p>
-  </div>
-</div>
+</nav>
+
+
+
+</html>
